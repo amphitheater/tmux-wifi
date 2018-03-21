@@ -10,6 +10,8 @@ wifi_interpolation=(
 	"\#{wifi_fg_color}"
 	"\#{wifi_graph}"
 	"\#{wifi_ssid}"
+    "\#{wifi_ascii}"
+    "\#{wifi_ascii_char}"
 )
 
 wifi_commands=(
@@ -18,6 +20,7 @@ wifi_commands=(
 	"#($CURRENT_DIR/scripts/wifi_fg_color.sh)"
 	"#($CURRENT_DIR/scripts/wifi_graph.sh)"
 	"#($CURRENT_DIR/scripts/wifi_ssid.sh)"
+    "#($CURRENT_DIR/scripts/wifi_ascii.sh)"
 )
 
 set_tmux_option() {

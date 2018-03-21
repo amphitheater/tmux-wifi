@@ -26,7 +26,7 @@ Clone the repo:
 
 Add this line to the bottom of `.tmux.conf`:
 
-    run-shell ~/clone/path/cpu.tmux
+    run-shell ~/.tmux/plugins/tmux-wifi/wifi.tmux
 
 Reload TMUX environment:
 
